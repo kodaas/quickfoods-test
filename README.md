@@ -1,2 +1,0 @@
-# quickfoods-test
-quickfoods test
