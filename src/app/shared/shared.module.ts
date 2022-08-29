@@ -5,6 +5,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SearchComponent } from './components/search/search.component';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { SharedRoutingModule } from './shared-routing.module'
 
 
 
@@ -17,7 +18,8 @@ import { LogoComponent } from './components/logo/logo.component';
     LogoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedRoutingModule
   ],
   exports: [
     NavigationComponent,
