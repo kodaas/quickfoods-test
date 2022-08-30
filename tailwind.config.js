@@ -6,7 +6,7 @@ module.exports = {
   theme: {
 
     fontFamily: {
-      "Omens": ["Omens", "cursive"],
+      "Omnes": ["Omnes", "cursive"],
       "Roboto": ["Roboto", "sans-serif"],
     },
     extend: {
