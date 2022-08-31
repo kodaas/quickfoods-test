@@ -1,20 +1,18 @@
-<nav
-  class="w-full shadow-md"
->
+<nav class="w-full shadow-sm bg-transparent">
+  <div
+    class="max-w-[1300px] mx-auto px-4 py-2 w-full flex flex-nowrap justify-between items-center gap-x-3 bg-transparent"
+  >
+    <!-- Logo -->
+    <app-logo></app-logo>
 
-<div class="max-w-[1200px] mx-auto p-4 w-full flex flex-nowrap justify-between items-center gap-x-3">
-  
-  <!-- Logo -->
-  <app-logo></app-logo>
+    <!-- Search -->
+    <div>
+      <app-search *ngIf="searchSection"></app-search>
+    </div>
 
-  <!-- Search -->
-  <div>
-    <app-search></app-search>
+    <!-- Menu -->
+    <app-nav-menu></app-nav-menu>
   </div>
-
-  <!-- Menu -->
-  <app-nav-menu></app-nav-menu>
-</div>
 </nav>
 
 <!-- <nav
